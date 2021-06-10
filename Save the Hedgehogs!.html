@@ -1,0 +1,356 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🦔 Save the Hedgehogs! 🦔</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cookie|Mali"
+    />
+    <style>
+      body {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/919/original/spring-hedgehog-pattern-prints_%282%29.jpg?1601985292");
+      }
+      .container {
+        max-width: 1150px;
+        margin: 0 auto;
+        padding: 25px 50px;
+        text-align: center;
+        font-family: "Mali";
+        background: linear-gradient(
+          rgba(215, 137, 215, 0.9),
+          rgba(157, 101, 201, 0.9)
+        );
+        border-radius: 10px;
+      }
+
+      .header {
+        border: 4px dotted #590995;
+        border-radius: 10px;
+      }
+
+      h1 {
+        font-size: 48px;
+        font-family: "Cookie";
+        color: #590995;
+        line-height: 48px;
+      }
+
+      h2 {
+        font-size: 38px;
+        font-family: "Cookie";
+        color: #5d54a4;
+        line-height: 38px;
+      }
+
+      h3 {
+        font-size: 35px;
+        font-family: "Cookie";
+        color: #590995;
+        line-height: 25px;
+      }
+
+      .main-image {
+        border-radius: 10px;
+        max-height: 300px;
+        max-width: 100%;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .column {
+        position: relative;
+        width: 500px;
+        margin: 0 auto;
+      }
+
+      .column img {
+        display: block;
+        max-width: 100%;
+        transform: scale(0.9);
+        border-radius: 25px;
+      }
+
+      .column:hover img {
+        transform: scale(1);
+      }
+
+      p {
+        line-height: 28px;
+        font-size: 17px;
+        font-family: "Mali";
+        color: #f4eeff;
+      }
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        list-style-type: none;
+        margin: 0 20px;
+        display: inline-block;
+        width: fit-content;
+        font-size: 16px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .help:hover,
+      .adopt:hover,
+      .found:hover,
+      .link:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 110%;
+      }
+
+      .help {
+        color: #c7358f;
+        border: #c7358f;
+        border-radius: 10px;
+        background-color: #eb95ca;
+        padding: 5px 5px;
+      }
+
+      .adopt {
+        color: #353be7;
+        border: #353be7;
+        border-radius: 10px;
+        background-color: #9ab3f5;
+        padding: 5px 5px;
+      }
+
+      .found {
+        color: rgb(216, 3, 3);
+        border: rgb(216, 3, 3);
+        border-radius: 10px;
+        background-color: #eb9f9f;
+        padding: 5px 5px;
+      }
+
+      img {
+        max-width: 50px;
+      }
+
+      button {
+        display: inline;
+        color: #efa1ff;
+        font-size: 25px;
+        font-family: "Cookie";
+        background-color: #590995;
+        margin: 0 auto;
+        padding: 10px 15px;
+        border: 1px solid #efa1ff;
+        border-radius: 30px;
+        box-shadow: 2px 5px 5px rgba(255, 255, 255, 0.4);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        color: #590995;
+        background-color: #efa1ff;
+        border: 1px solid #590995;
+        cursor: pointer;
+      }
+
+      hr {
+        border: 3px solid #590995;
+        border-radius: 4px;
+      }
+
+      .footer-image {
+        max-width: 100%;
+      }
+
+      .acknowledge {
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🦔 Save the Hedgehogs! 🦔</h1>
+        <h2>
+          ❗ The British hedgehog is now officially classified as vulnerable to
+          extinction! ❗
+        </h2>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/925/original/Hedgehog_1.png?1602017007"
+            alt="British Hedgehog"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/926/original/Hedgehog_2.png?1602017016"
+            alt="British Hedgehog"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/927/original/Hedgehog_3.png?1602017024"
+            alt="British Hedgehog"
+          />
+        </div>
+      </div>
+
+      <p>
+        Hedgehogs are often said to be a gardener’s best friend, because they
+        eat all the slugs, snails, and other insects which can destroy prized
+        plants. They were also voted the
+        <strong>UK's Favourite Mammal</strong> in a
+        <a
+          href="https://www.rsb.org.uk/news/14-news/1649-hedgehog-wins-favourite-uk-mammal-poll"
+          target="_blank"
+          class="link"
+          >2016 poll</a
+        >
+        by the <em>Royal Society of Biology</em>.
+        <br />
+        <br />
+        When was the last time you saw a hedgehog? If you live in a rural area,
+        maybe you’ve been lucky enough to see one recently, but if you live in a
+        more urban environment you may not have seen one for years, if at all.
+        In the UK, the hedgehog population has more than halved since 2000, and
+        other parts of Europe are also seeing a decline in their numbers.
+      </p>
+
+      <br />
+
+      <ul>
+        <li>
+          <a
+            href="https://www.honestly-good.co/16-things-to-help-save-hedgehogs/"
+            target="_blank"
+            class="help"
+            >🆘 What can I do to help hedgehogs? 🆘</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.wildlifetrusts.org/adopt-animal/adopt-hedgehog"
+            target="_blank"
+            class="adopt"
+            >🥰 I want to adopt a hedgehog 🥰</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.britishhedgehogs.org.uk/found-a-hedgehog/"
+            target="_blank"
+            class="found"
+            >🏥 I've found a hedgehog that needs help 🤕</a
+          >
+        </li>
+      </ul>
+
+      <h3>
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/920/original/hedgehog.png?1602002941"
+        />
+        Do you want to help the hedgehogs?
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/002/921/original/snail.png?1602003062"
+        />
+      </h3>
+
+      <button>🙋‍♀️ Yes, I want to save the hedgehogs! 🙋‍♂️</button>
+
+      <br />
+      <br />
+
+      <hr />
+
+      <br />
+      <a href="https://www.animatedimages.org/cat-hedgehogs-203.htm"
+        ><img
+          src="https://www.animatedimages.org/data/media/203/animated-hedgehog-image-0020.gif"
+          border="0"
+          alt="animated-hedgehog-image-0020"
+          class="footer-image"
+      /></a>
+
+      <p class="footer">
+        Coded by
+        <a
+          href="https://www.linkedin.com/in/tanya-taylor/"
+          target="_blank"
+          class="link"
+          >Tanya Taylor</a
+        >
+
+        <br />
+        <br />
+
+        <span class="acknowledge">
+          <a href="https://www.animatedimages.org/" target="_blank"
+            ><em>Free animated images and gifs on AnimatedImages.org</em></a
+          >
+
+          <br />
+
+          <em
+            >Icons made by
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+              >Freepik</a
+            >
+            from
+            <a href="https://www.flaticon.com/" title="Flaticon">
+              www.flaticon.com</a
+            ></em
+          ></span
+        >
+      </p>
+      <script>
+        function updateHeading(newHeading) {
+          let heading = document.querySelector("h3");
+          heading.innerHTML = newHeading;
+        }
+
+        function saveHedgehogs() {
+          let name = prompt("Hi! What's your name?");
+          name.trim();
+          let sighting = prompt("Have you ever seen a hedgehog, " + name + "?");
+          sighting.toLowerCase();
+          alert(
+            "Thank you for providing this valuable information, " +
+              name +
+              "! 😊"
+          );
+          if (sighting === "yes") {
+            updateHeading(
+              "<img src= 'https://www.animatedimages.org/data/media/203/animated-hedgehog-image-0016.gif'> " +
+                name +
+                " wants to save the hedgehogs - we hope you spot another one soon! " +
+                "<img src= 'https://www.animatedimages.org/data/media/203/animated-hedgehog-image-0072.gif'>"
+            );
+          } else {
+            updateHeading(
+              "<img src= 'https://www.animatedimages.org/data/media/203/animated-hedgehog-image-0016.gif'> " +
+                name +
+                " wants to save the hedgehogs - we hope you spot one soon! " +
+                "<img src= 'https://www.animatedimages.org/data/media/203/animated-hedgehog-image-0072.gif'>"
+            );
+          }
+        }
+
+        let button = document.querySelector("button");
+        button.addEventListener("click", saveHedgehogs);
+      </script>
+    </div>
+  </body>
+</html>
